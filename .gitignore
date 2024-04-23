@@ -1,0 +1,10 @@
+.DS_Store
+node_modules/
+lib/
+
+*.log
+*.tgz
+
+# Editor directories and files
+.idea
+.vscode

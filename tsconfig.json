@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "es5", // 或者你希望的目标 ECMAScript 版本
+    "module": "commonjs", // 模块系统
+    "strict": true, // 启用所有严格类型检查选项
+    "esModuleInterop": true, // 启用后，编译器会创建一个默认的 esModuleInterop helper
+    "skipLibCheck": true, // 跳过对所有声明文件的类型检查
+    "forceConsistentCasingInFileNames": true, // 确保文件名的大小写是一致的
+    "outDir": null, // 不输出到任何目录
+    "noEmit": true, // 不生成输出文件
+    "declaration": false, // 不生成 .d.ts 文件
+    "sourceMap": false // 不生成源代码映射文件
+  },
+  "include": [
+    "src/**/*" // 包含的文件或文件夹
+  ],
+  "exclude": [
+    "node_modules" // 排除的文件或文件夹
+  ]
+}
